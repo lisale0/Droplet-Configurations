@@ -1,0 +1,1 @@
+# Run setup_kibana.sh to set up the kibana, this script will call other script
