@@ -18,3 +18,4 @@ sudo update-rc.d kibana defaults 96 9
 
 # Restart Kibana
 sudo service kibana start
+
