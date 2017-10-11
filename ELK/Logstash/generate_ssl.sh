@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-ELK_server_private_IP=178.62.44.124
+ELK_server_private_IP=138.197.192.187
 
 sudo mkdir -p /etc/pki/tls/certs
 sudo mkdir /etc/pki/tls/private
