@@ -13,3 +13,7 @@
 /usr/bin/env bash Elasticsearch/load_filebeat.sh
 
 /usr/bin/env bash Elasticsearch/scp_cert.sh
+
+#######################
+###  Set up Client  ###
+#######################
