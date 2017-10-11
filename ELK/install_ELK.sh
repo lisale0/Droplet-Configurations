@@ -17,3 +17,11 @@
 #######################
 ###  Set up Client  ###
 #######################
+
+# see serverclient directory
+
+#######################
+###  Test Filebeat  ###
+#######################
+
+# /usr/bin/env bash Elasticsearch/test_filebeat.sh
