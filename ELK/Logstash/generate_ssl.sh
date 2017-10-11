@@ -1,10 +1,14 @@
 #!/usr/bin/env bash
 
+ELK_server_private_IP=178.62.44.124
+
 sudo mkdir -p /etc/pki/tls/certs
 sudo mkdir /etc/pki/tls/private
 
 # Option 1: IP Address, if you do not have DNS set up
 #configure /etc/ssl/openssl.cnf
+sed -i '203subjectAltName = IP: $ELK_server_private_IP' /etc/ssl/openssl.cnf
+
 
 #general SSL certificate and private key
 cd /etc/pki/tls
